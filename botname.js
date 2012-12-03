@@ -8,11 +8,12 @@ var config = {
     openDate: '10/11/12', //only echoed out in commands, no functionality
     fbLink: 'http://on.fb.me/Q1SywN', //only echoed out in commands, no functionality
     tinyLink: 'http://tinychat.com/mixmash', //only echoed out in commands, no functionality
+    excludeMods: ['xxxx'/*exclude mod from automated pms in pmMods*/,'xxxx'/*#2 Mod excluded*/],
     //the above lines are custom to your room, change these values as they get echoed out in rules, newgreets and such.
     botGreetings: ['/', 'bot ', 'bot', 'jackie ', 'Jackie ', 'AuntJackie ', 'jac', 'j'],
     botGreetingsGeneric: ['/', 'bot ', 'bot', 'jackie ', 'Jackie ', 'AuntJackie ', 'jac', 'j', 'j '],
     botOwner: 'bot Owner userid here',
-    JBIRD: '',//secondary override for running other bots **not currently working in this version.
+    JBIRD: '',//secondary override for running other bots.
     auth: 'xxxx', //find out auth, userid, and room id with this http://alaingilbert.github.com/Turntable-API/bookmarklet.html
     userid: 'xxxx',
     roomid: 'xxxx', 
